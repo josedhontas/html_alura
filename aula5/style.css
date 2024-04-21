@@ -18,7 +18,7 @@ body {
 }
 
 .apresentacao {
-    margin:10%; /* coloca margem nos bichos*/
+    margin:10% 15%; /* coloca margem nos bichos*/
     display: flex; /*utilizando flexbox*/
     align-items: center; /*alinha itens em relacao imagem maior altura*/
     justify-content: space-between; /* espaco entre itens*/
@@ -26,6 +26,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
