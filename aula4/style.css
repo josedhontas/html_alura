@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box; /*deixar a imagem no body*/
+    background-color: black;
+    color: #F6F6F6; /* cor do texto*/
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    margin:10%;
+    display: flex; /*utilizando flexbox*/
+    align-items: center; /*alinha itens em relacao imagem maior altura*/
+    justify-content: space-between;
+}
